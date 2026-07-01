@@ -1,5 +1,5 @@
 # chordwatcher
-music scanner that puts notes from documents into a midi
+music scanner that puts notes from documents into a midi file.
 
 
 step 1
