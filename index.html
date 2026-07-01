@@ -25,6 +25,18 @@
       </p>
     </section>
 
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Scans <strong>.txt</strong>, <strong>.docx</strong>, and <strong>.pdf</strong> documents, including
+          scanned PDFs via OCR.</li>
+        <li>Detects chord charts (<code>C&nbsp;&nbsp;G&nbsp;&nbsp;Am&nbsp;&nbsp;F</code>) as well as explicit note
+          names (<code>C4 E4 G4</code>).</li>
+        <li>Exports a standard <code>.mid</code> file ready to import into GarageBand or any DAW.</li>
+        <li>Comes with both a simple desktop GUI and a command-line interface.</li>
+      </ul>
+    </section>
+
     <section id="how-it-works">
       <h2>How it works</h2>
       <ol>
@@ -34,11 +46,25 @@
       </ol>
     </section>
 
+    <section id="get-started">
+      <h2>Get started</h2>
+      <pre><code>git clone https://github.com/zachattack993/chordwatcher.git
+cd chordwatcher
+pip install -r requirements.txt
+
+python3 main.py song.txt -o song.mid</code></pre>
+      <p>
+        Running <code>python3 main.py</code> with no arguments opens the desktop GUI instead.
+        Import the resulting <code>.mid</code> file into GarageBand via <em>File &gt; Import</em>,
+        then drag it onto a software instrument track.
+      </p>
+    </section>
+
     <section id="status">
       <h2>Status</h2>
       <p>ChordWatcher is under active development. Check the
         <a href="https://github.com/zachattack993/chordwatcher">GitHub repository</a>
-        for the latest progress.</p>
+        for the latest progress and full documentation.</p>
     </section>
   </main>
 

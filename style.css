@@ -68,6 +68,37 @@ a {
   color: var(--accent);
 }
 
+code {
+  background: var(--bg-alt);
+  color: var(--accent);
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+pre {
+  background: var(--bg-alt);
+  border: 1px solid #262b33;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: var(--text);
+}
+
+ul,
+ol {
+  padding-left: 1.3rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
 footer {
   text-align: center;
   color: var(--muted);
