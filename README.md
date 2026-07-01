@@ -4,12 +4,16 @@ music scanner that puts notes from documents into a midi
 
 step 1
 
-MusicTextScanner
+Download Zip
 
 step 2
 
+MusicTextScanner
+
+step 3
+
 target
 
-step3
+step 4
 
 MusicTextScanner-1.0.0.jar
