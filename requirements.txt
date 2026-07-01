@@ -1,0 +1,8 @@
+python-docx>=1.1.0
+pypdf>=4.0.0
+midiutil>=1.2.1
+
+# Optional: only needed to OCR scanned/image-only PDFs (no extractable text).
+# Also requires the system tools 'poppler' and 'tesseract-ocr' to be installed.
+pdf2image>=1.17.0
+pytesseract>=0.3.10
