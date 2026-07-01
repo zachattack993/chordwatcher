@@ -1,0 +1,9 @@
+Tempo: 120 BPM
+Instrument: Piano
+
+Verse:
+C D E F G A B
+
+Chords:
+Am F C G
+G7 Cmaj7 Dm

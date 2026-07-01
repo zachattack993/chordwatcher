@@ -1,0 +1,9 @@
+com\musictextscanner\MusicTextScannerApp.class
+com\musictextscanner\MusicEvent.class
+com\musictextscanner\MusicXmlGenerator$NoteParts.class
+com\musictextscanner\TempoDetector.class
+com\musictextscanner\FileTextReader.class
+com\musictextscanner\NoteParser.class
+com\musictextscanner\MusicTextScannerApp$1.class
+com\musictextscanner\MidiGenerator.class
+com\musictextscanner\MusicXmlGenerator.class
